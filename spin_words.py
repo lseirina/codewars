@@ -1,4 +1,6 @@
 #spinWords( "Hey fellow warriors" ) => returns "Hey wollef sroirraw" 
+
+
 def spin_words(words):
     split_words = words.split(" ")
     result = []
@@ -11,5 +13,6 @@ def spin_words(words):
     return " ".join(result)
 
 print(spin_words("this is another test"))  
-    
-    
+
+
+
