@@ -26,7 +26,8 @@ def find_odd_int(nums):
             
     for num, count in counts.items():
         if count % 2 != 0:
-            return num
-
+            return num 
+           
+   
 print(find_odd_int([1,2,2,3,3,3,4,3,3,3,2,2,1]))    
 
