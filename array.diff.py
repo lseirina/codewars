@@ -12,9 +12,4 @@ def remove_common_elements(list1, list2):
     return my_list
 
 print(remove_common_elements([1,2,2,2,3],[2]))
-            
-            
-            
-    
-
 
